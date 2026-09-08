@@ -20,7 +20,7 @@
 <script>
 (() => {
 'use strict';
-const API_BASE = (localStorage.getItem('WT_API') || 'https://YOUR-API.onrender.com').replace(/\/$/,'');
+const API_BASE = (localStorage.getItem('WT_API') || 'https://webtogether.onrender.com/health').replace(/\/$/,'');
 const SESSION_KEY='WT_SESSION';
 const token=()=>localStorage.getItem(SESSION_KEY)||'';
 const app=document.getElementById('app'),toast=document.getElementById('toast');
